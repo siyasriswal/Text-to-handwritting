@@ -1,29 +1,117 @@
-<p align="center">
-<img alt="Text-to-handwriting title image" src="https://res.cloudinary.com/saurabhdaware/image/upload/w_400/v1586015094/saurabh2019/text-to-handwriting-title.png" /> 
-<br/><b><a href="https://saurabhdaware.github.io/text-to-handwriting/">https://saurabhdaware.github.io/text-to-handwriting/</a></b><br/><br/><img alt="NPM Version" src="https://img.shields.io/github/package-json/v/saurabhdaware/text-to-handwriting?style=for-the-badge&labelColor=black&logo=npm&color=darkred" /> <a href="#contributing"><img alt="Contributions Welcome" src="https://img.shields.io/badge/contributions-welcome-brightgreen?style=for-the-badge&labelColor=black&logo=github"></a> <br/><a href="https://github.com/saurabhdaware/text-to-handwriting/blob/master/LICENSE"> <img alt="GitHub License MIT" src="https://img.shields.io/github/license/saurabhdaware/text-to-handwriting?style=for-the-badge&labelColor=black&logo=github"> </a><a href="https://twitter.com/saurabhcodes"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/saurabhcodes?style=for-the-badge&color=09f&labelColor=black&logo=twitter&label=@saurabhcodes"></a><br/><br/> I hate writing assignments so I made this tool that converts text to an image that looks like handwriting😛
+# ✍️ Text to Handwriting
 
-</p>
-
-*Note: This project is now archived. Read the announcement at https://github.com/saurabhdaware/text-to-handwriting/issues/138*
-
-## 🌠 Output
-
-<img width="400" alt="Sample image of output" src="sample.jpeg" />
-
-## 🤗 Contributing
-
-Checkout [Contribution Guide](CONTRIBUTING.md) for local setup and contribution guide.
-
-## 📚 Libraries used
-
-- [html2canvas](https://github.com/niklasvh/html2canvas) - Turns DOM into Canvas.
-- [jsPDF](https://github.com/MrRio/jsPDF) - To generate PDF from images.
-- [cypress](https://github.com/cypress-io/cypress) - Testing Library
-- [serve](https://github.com/zeit/serve) - Start local server
+A web-based application that converts typed text into realistic handwritten notes. Built using **HTML, CSS, and JavaScript**, the application allows users to customize handwriting styles, page layouts, ink colors, spacing, and paper backgrounds before exporting the output as images or PDF files. It also supports uploading custom handwriting fonts for a personalized writing experience. :contentReference[oaicite:0]{index=0}
 
 ---
 
-[<img alt="Buy me a Coffee Button" width=200 src="https://c5.patreon.com/external/logo/become_a_patron_button.png">](https://www.patreon.com/bePatron?u=31891872) &nbsp; [<img alt="Buy me a Coffee Button" width=200 src="https://cdn.buymeacoffee.com/buttons/default-yellow.png">](https://www.buymeacoffee.com/saurabhdaware)
+## 🚀 Features
 
-Bye!
-Have fun 🦄
+- 📝 Convert typed text into realistic handwriting
+- 🎨 Multiple handwriting fonts
+- ✒️ Custom ink color selection
+- 📄 Different paper sizes and backgrounds
+- 📏 Adjustable font size, margins, line spacing, and letter spacing
+- 📤 Export handwritten notes as PNG images or PDF
+- ✍️ Upload your own handwriting font (.ttf)
+- 📱 Fully browser-based (No installation required)
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript
+- html2canvas
+- jsPDF
+
+---
+
+## 📂 Project Structure
+
+```
+text-to-handwriting/
+│── css/
+│── js/
+│── images/
+│── fonts/
+│── index.html
+│── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### Clone the repository
+
+```bash
+git clone https://github.com/yourusername/text-to-handwriting.git
+cd text-to-handwriting
+```
+
+### Run the project
+
+Simply open:
+
+```text
+index.html
+```
+
+or start a local server:
+
+```bash
+python -m http.server
+```
+
+Then visit:
+
+```
+http://localhost:8000
+```
+
+---
+
+## ✍️ How to Use
+
+1. Enter or paste your text.
+2. Choose a handwriting font.
+3. Customize:
+   - Font Size
+   - Ink Color
+   - Paper Size
+   - Margins
+   - Word & Letter Spacing
+   - Background
+4. Click **Generate Image**.
+5. Download the generated pages as **PNG** or **PDF**.
+
+---
+
+## 📸 Features Overview
+
+- Realistic handwritten pages
+- Multi-page support
+- Custom handwriting font upload
+- Diagram drawing support
+- Paper background customization
+- High-resolution output
+
+---
+
+## 🎯 Future Improvements
+
+- AI-generated handwriting
+- Mobile application
+- Additional handwriting fonts
+- OCR support
+- Dark mode
+- Cloud storage integration
+
+---
+
+
+
+---
+
+⭐ If you found this project useful, don't forget to star the repository!
